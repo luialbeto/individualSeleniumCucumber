@@ -31,6 +31,7 @@ VS Code:
 
 ## Arquitetura
 
+<pre>
 ├── driver
 │   └── chromedriver
 ├── mvnw
@@ -99,3 +100,4 @@ VS Code:
 ├── test.bat
 ├── #test.sh#
 └── test.sh
+</pre>
