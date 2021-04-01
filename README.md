@@ -1,6 +1,6 @@
 # individualSeleniumCucumber
 
-Aplicação para avaliação de certificação QA<br>
+Aplicação para avaliação de certificação QA com BDD<br>
 
 Cenários de testes criados para validação de preenchimento de formulário no site http://sampleapp.tricentis.com/101/app.php. Executado em Selenium com Cucumber
 
@@ -14,6 +14,9 @@ Selenium
 Cucumber
 
 PageObject (pattern)
+
+## Features
+Features desenvolvidas em DRY com utilziação de Background e linguagem Gherkin
 
 
 ## Execução dos testes

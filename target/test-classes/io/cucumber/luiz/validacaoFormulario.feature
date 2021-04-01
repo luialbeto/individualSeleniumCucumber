@@ -1,15 +1,17 @@
-               #language: pt
-               #encoding: utf-8
-               #Luiz Araujo
-               #30/03/2021
-               #BDD com utilização de esquema de cenários
+#language: pt
+#encoding: utf-8
+#Luiz Araujo
+#30/03/2021
+#BDD com utilização de esquema de cenários
+
+@java
 
 Funcionalidade: Validacao usabilidade de site
-               Validação de usabilidade de site com utilização de linguagem Gherkin
+Validação de usabilidade de site com utilização de linguagem Gherkin
 
         Contexto:
             Dado que eu estou no "site" da Tricentis
-        
+
         Cenario: Enter Vehicle Data
               E seleciono "Make": "Audi"
               E preencho "Engine Performance [kW]": "2000"
@@ -21,7 +23,7 @@ Funcionalidade: Validacao usabilidade de site
               E preencho "Annual Mileage": "99999"
              Entao devo clicar em Next para o formulario "enter insurant data"
 
-        Esquema do Cenario: Acessar, preencher formulario e enviar email
+        Cenario: Acessar, preencher formulario e enviar email
             Dado que eu estou no formulario "Vehicle Data"
               E preencho "First Name": "Bug"
               E preencho  "Last Name": "Hopper"
@@ -37,11 +39,6 @@ Funcionalidade: Validacao usabilidade de site
               E anexo foto
              Entao devo clicar em Next para o formulario "enter product data"
 
-        Exemplos:
-                  | nome | sobreNome | aniversario | endereco           | pais   | cep   | cidade        | emprego  | site                         |
-                  | Bug  | Hopper    | 12/12/2000  | Alzira Rosa Aguiar | Brazil | 88060 | Florianopolis | Employee | https://github.com/luialbeto |
-                  | João | e Maria   | 12/12/2000  | Alzira Rosa Aguiar | Brazil | 88060 | Florianopolis | Employee | https://github.com/luialbeto |
-
         Cenario: Enter Product Data
             Dado que eu estou no formulario "Product Data"
               E informo "Start Date": "05/05/2021"
@@ -51,12 +48,12 @@ Funcionalidade: Validacao usabilidade de site
               E seleciono Optional Products Euro Protection
               E seleciono "Courtesy Car": "Yes"
              Entao devo clicar em Next para o formulario "select price option"
-             
+
         Cenario: Select Price Option
             Dado que eu estou no formulario "Price Option"
               E seleciono Select Option o plano Ultimate
              Entao devo clicar Next para o formulario "send quote"
-             
+
         Cenario: Send Quote
             Dado que eu estou no site da Tricentis no formulario "Send Quote"
               E informo "E-Mail": "antonio@gmail.com"
