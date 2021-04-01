@@ -16,7 +16,7 @@ Cucumber
 PageObject (pattern)
 
 ## Features
-Features desenvolvidas em DRY com utilziação de Background e linguagem Gherkin
+Features desenvolvidas em DRY com utilização de Background para reaproveitamento de código e linguagem Gherkin
 
 
 ## Execução dos testes
