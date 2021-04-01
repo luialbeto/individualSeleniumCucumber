@@ -1,0 +1,785 @@
+-------------------------------------------------------------------------------
+Test set: io.cucumber.luiz.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 29, Skipped: 1, Time elapsed: 12.09 sec <<< FAILURE!
+Enter Vehicle Data(Validacao usabilidade de site)  Time elapsed: 6.325 sec  <<< ERROR!
+java.lang.NullPointerException
+	at io.cucumber.luiz.steps.CommonSteps.seleciono(CommonSteps.java:30)
+	at ✽.seleciono "Make": "Audi"(classpath:io/cucumber/luiz/testeA.feature:14)
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.033 sec  <<< ERROR!
+java.lang.NullPointerException
+	at io.cucumber.luiz.steps.CommonSteps.que_eu_estou_no_site_da_Tricentis_no_formulario(CommonSteps.java:24)
+	at ✽.que eu estou no formulario "Vehicle Data"(classpath:io/cucumber/luiz/testeA.feature:25)
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.035 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho  "Last Name": Hopper" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho  {string}: Hopper")
+public void preencho_Hopper(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: {int}\\/{int}\\/{int}")
+public void preencho(String string, Integer int1, Integer int2, Integer int3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Gender Male")
+public void seleciono_Gender_Male() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Alzira Rosa Aguiar")
+public void preencho_Alzira_Rosa_Aguiar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.037 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "Date of Birth": 12/12/2000" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: {int}\\/{int}\\/{int}")
+public void preencho(String string, Integer int1, Integer int2, Integer int3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono Gender Male")
+public void seleciono_Gender_Male() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Alzira Rosa Aguiar")
+public void preencho_Alzira_Rosa_Aguiar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.038 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono Gender Male" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono Gender Male")
+public void seleciono_Gender_Male() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: Alzira Rosa Aguiar")
+public void preencho_Alzira_Rosa_Aguiar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.04 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "Street Address": Alzira Rosa Aguiar" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: Alzira Rosa Aguiar")
+public void preencho_Alzira_Rosa_Aguiar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.042 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono "Country": Brasil" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.043 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "Zip Code": 88060" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.045 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "City": Florianopolis" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.047 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono "Occupation": Employee" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.05 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono Hobbies Other" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.051 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "Website": https://github.com/luialbeto" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.071 sec  <<< ERROR!
+java.lang.NullPointerException
+	at io.cucumber.luiz.steps.CommonSteps.que_eu_estou_no_site_da_Tricentis_no_formulario(CommonSteps.java:24)
+	at ✽.que eu estou no formulario "Vehicle Data"(classpath:io/cucumber/luiz/testeA.feature:25)
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.075 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho  "Last Name": e Maria" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho  {string}: e Maria")
+public void preencho_e_Maria(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: {int}\\/{int}\\/{int}")
+public void preencho(String string, Integer int1, Integer int2, Integer int3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Gender Male")
+public void seleciono_Gender_Male() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Alzira Rosa Aguiar")
+public void preencho_Alzira_Rosa_Aguiar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.076 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "Date of Birth": 12/12/2000" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: {int}\\/{int}\\/{int}")
+public void preencho(String string, Integer int1, Integer int2, Integer int3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono Gender Male")
+public void seleciono_Gender_Male() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Alzira Rosa Aguiar")
+public void preencho_Alzira_Rosa_Aguiar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.077 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono Gender Male" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono Gender Male")
+public void seleciono_Gender_Male() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: Alzira Rosa Aguiar")
+public void preencho_Alzira_Rosa_Aguiar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.088 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "Street Address": Alzira Rosa Aguiar" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: Alzira Rosa Aguiar")
+public void preencho_Alzira_Rosa_Aguiar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.088 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono "Country": Brasil" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono {string}: Brasil")
+public void seleciono_Brasil(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.09 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "Zip Code": 88060" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: {int}")
+public void preencho(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.096 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "City": Florianopolis" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: Florianopolis")
+public void preencho_Florianopolis(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.096 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono "Occupation": Employee" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono {string}: Employee")
+public void seleciono_Employee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.096 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono Hobbies Other" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono Hobbies Other")
+public void seleciono_Hobbies_Other() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar, preencher formulario e enviar email(Validacao usabilidade de site)  Time elapsed: 1.098 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "preencho "Website": https://github.com/luialbeto" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("preencho {string}: https:\\/\\/github.com\\/luialbeto")
+public void preencho_https_github_com_luialbeto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Enter Product Data(Validacao usabilidade de site)  Time elapsed: 0.981 sec  <<< ERROR!
+java.lang.NullPointerException
+	at io.cucumber.luiz.steps.CommonSteps.que_eu_estou_no_site_da_Tricentis_no_formulario(CommonSteps.java:24)
+	at ✽.que eu estou no formulario "Product Data"(classpath:io/cucumber/luiz/testeA.feature:46)
+
+Enter Product Data(Validacao usabilidade de site)  Time elapsed: 0.982 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "informo "Start Date": "05/05/2021"" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("informo {string}: {string}")
+public void informo(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Dado("seleciono Optional Products Euro Protection")
+public void seleciono_Optional_Products_Euro_Protection() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Enter Product Data(Validacao usabilidade de site)  Time elapsed: 0.982 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono Optional Products Euro Protection" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono Optional Products Euro Protection")
+public void seleciono_Optional_Products_Euro_Protection() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Select Price Option(Validacao usabilidade de site)  Time elapsed: 1.053 sec  <<< ERROR!
+java.lang.NullPointerException
+	at io.cucumber.luiz.steps.CommonSteps.que_eu_estou_no_site_da_Tricentis_no_formulario(CommonSteps.java:24)
+	at ✽.que eu estou no formulario "Price Option"(classpath:io/cucumber/luiz/testeA.feature:56)
+
+Select Price Option(Validacao usabilidade de site)  Time elapsed: 1.062 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "seleciono Select Option o plano Ultimate" is undefined. You can implement it using tne snippet(s) below:
+
+@Dado("seleciono Select Option o plano Ultimate")
+public void seleciono_Select_Option_o_plano_Ultimate() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Entao("devo clicar Next para o formulario {string}")
+public void devo_clicar_Next_para_o_formulario(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Select Price Option(Validacao usabilidade de site)  Time elapsed: 1.062 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "devo clicar Next para o formulario "send quote"" is undefined. You can implement it using tne snippet(s) below:
+
+@Entao("devo clicar Next para o formulario {string}")
+public void devo_clicar_Next_para_o_formulario(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+

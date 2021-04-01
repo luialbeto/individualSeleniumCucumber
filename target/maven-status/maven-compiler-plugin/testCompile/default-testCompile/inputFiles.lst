@@ -1,0 +1,5 @@
+/home/araujo/individualSeleniumCucumber/src/test/java/io/cucumber/luiz/pages/CommonPage.java
+/home/araujo/individualSeleniumCucumber/src/test/java/io/cucumber/luiz/steps/CommonSteps.java
+/home/araujo/individualSeleniumCucumber/src/test/java/io/cucumber/luiz/pages/SitePageElementsMap.java
+/home/araujo/individualSeleniumCucumber/src/test/java/io/cucumber/luiz/steps/SiteSteps.java
+/home/araujo/individualSeleniumCucumber/src/test/java/io/cucumber/luiz/RunCucumberTest.java
