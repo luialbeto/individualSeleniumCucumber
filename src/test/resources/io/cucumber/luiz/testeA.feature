@@ -23,24 +23,24 @@ Funcionalidade: Validacao usabilidade de site
 
         Esquema do Cenario: Acessar, preencher formulario e enviar email
             Dado que eu estou no formulario "Vehicle Data"
-              E preencho "First Name": "<nome>"
-              E preencho  "Last Name": <sobreNome>
-              E preencho "Date of Birth": <aniversario>
+              E preencho "First Name": "Bug"
+              E preencho  "Last Name": "Hopper"
+              E preencho "Date of Birth": "12/12/2000"
               E seleciono Gender Male
-              E preencho "Street Address": <endereco>
-              E seleciono "Country": <pais>
-              E preencho "Zip Code": <cep>
-              E preencho "City": <cidade>
-              E seleciono "Occupation": <emprego>
+              E preencho "Street Address": "Alzira Rosa Aguiar"
+              E seleciono "Country": "Brazil"
+              E preencho "Zip Code": "88060"
+              E preencho "City": "Florianopolis"
+              E seleciono "Occupation": "Employee"
               E seleciono Hobbies Other
-              E preencho "Website": <site>
+              E preencho "Website": "https://github.com/luialbeto"
               E anexo foto
              Entao devo clicar em Next para o formulario "enter product data"
 
         Exemplos:
                   | nome | sobreNome | aniversario | endereco           | pais   | cep   | cidade        | emprego  | site                         |
-                  | Bug  | Hopper    | 12/12/2000  | Alzira Rosa Aguiar | Brasil | 88060 | Florianopolis | Employee | https://github.com/luialbeto |
-                  | João | e Maria   | 12/12/2000  | Alzira Rosa Aguiar | Brasil | 88060 | Florianopolis | Employee | https://github.com/luialbeto |
+                  | Bug  | Hopper    | 12/12/2000  | Alzira Rosa Aguiar | Brazil | 88060 | Florianopolis | Employee | https://github.com/luialbeto |
+                  | João | e Maria   | 12/12/2000  | Alzira Rosa Aguiar | Brazil | 88060 | Florianopolis | Employee | https://github.com/luialbeto |
 
         Cenario: Enter Product Data
             Dado que eu estou no formulario "Product Data"
