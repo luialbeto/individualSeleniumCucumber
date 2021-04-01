@@ -1,5 +1,7 @@
 # individualSeleniumCucumber
-Aplicação para avaliação de certificação QA
+
+Aplicação para avaliação de certificação QA<br>
+
 Cenários de testes criados para validação de preenchimento de formulário no site http://sampleapp.tricentis.com/101/app.php. Executado em Selenium com Cucumber
 
 ## Linguagens, frameworks, patterns e bibliotecas
@@ -30,7 +32,8 @@ VS Code:
 - Selenium: selenium.dev
 
 ## Arquitetura
-.
+
+<pre>
 ├── driver
 │   └── chromedriver
 ├── mvnw
@@ -99,3 +102,4 @@ VS Code:
 ├── test.bat
 ├── #test.sh#
 └── test.sh
+</pre>
