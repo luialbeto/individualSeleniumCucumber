@@ -30,7 +30,7 @@ VS Code:
 - Selenium: selenium.dev
 
 ## Arquitetura
-.
+
 ├── driver
 │   └── chromedriver
 ├── mvnw
